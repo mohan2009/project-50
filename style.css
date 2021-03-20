@@ -1,0 +1,58 @@
+@import url ('https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap');
+*
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    justify-content: left;
+}
+p,h2{
+    text-align: center;
+}
+@media (max-width: 500px){
+   .site-description{
+    display: auto!important;
+    flex-direction: auto!important;
+    justify-content: auto!important;
+}
+
+.grid{
+    display: auto!important;
+    flex-wrap: auto!important;
+    justify-content: auto!important;
+}
+
+.footer{
+    display: auto!important;
+    justify-content: auto!important;
+}
+
+}
